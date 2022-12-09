@@ -24,6 +24,7 @@ li{
     position:absolute;
     background-color: white;
     bottom: -285px;
+    border:1px black solid;
 }
 #horiseon:hover {
     box-shadow: ;
