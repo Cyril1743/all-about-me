@@ -16,16 +16,13 @@ p {
     max-width: 400px;
     border-left: 5px solid black;
 }
-li{
-    display:inline;
+div h2 {
+    position:relative;
+    right:50px;
+    top:200px;
 }
-#horiseon[data-descr]:hover::after{
-    content:attr(data-descr);
-    position:absolute;
-    background-color: white;
-    bottom: -285px;
-    border:1px black solid;
-}
-#horiseon:hover {
-    box-shadow: ;
+.top {
+    position:relative;
+    right: 150px;
+    top:300px;
 }
