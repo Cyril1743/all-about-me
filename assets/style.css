@@ -1,0 +1,30 @@
+* {
+    text-align: center;
+    background-color: rgb(150, 241, 253);
+}
+ul {
+    list-style: none;
+}
+section{
+    text-align: center;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+p {
+    flex-direction: column;
+    max-width: 400px;
+    border-left: 5px solid black;
+}
+li{
+    display:inline;
+}
+#horiseon[data-descr]:hover::after{
+    content:attr(data-descr);
+    position:absolute;
+    background-color: white;
+    bottom: -285px;
+}
+#horiseon:hover {
+    box-shadow: ;
+}
